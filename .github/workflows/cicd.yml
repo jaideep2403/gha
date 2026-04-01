@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Build
         run: echo "Build Job"
-    test:
+     test:
       runs-on: ubuntu-latest
       steps:
       - name: Test
